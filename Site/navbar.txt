@@ -1,0 +1,59 @@
+
+html{
+	margin:auto;
+	padding: 0;
+	width: 100%;
+}
+
+body{
+	background-image: url(montanha.jpg);
+	background-size: cover;
+	display: table;
+}
+
+
+
+.j1 {
+	text-align: center;
+	
+}
+
+.nav {
+	height: 82px; 
+}
+
+
+
+li{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+
+li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family:font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	transition: 1s;
+ 	padding: 25px 30px;
+}
+
+li a:hover{
+	transition: 1s;
+	color: black;
+	background: rgba(255,255,255,0.7);
+	box-shadow:  0 0 10px rgb(242, 242, 242), 0 0 50px black, 0 0 80px black;
+
+}
+
+.enviar{
+	background-image: url(verde2.gif);
+	height: 50px;
+	width: 230px;
+	border-radius: 5px;
+	border: 2px solid;
+	margin-left: 950px;
+}
